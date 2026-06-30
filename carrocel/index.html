@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+
+        body{
+            height: 100vh;
+            width:100vh;
+            margin:auto;
+            
+        }
+        .limiteDosBlocos{
+            display:flex;
+            gap:5px;
+            margin:auto;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        #btn-esquerdo{
+            height:30px;
+            width:30px;
+
+        }
+
+         #btn-direito{
+            height:30px;
+            width:30px;
+
+        }
+
+        #foto-esquerda-mais-distante img {
+            width: 100px;
+            height: 156px; /* mantido proporção 5:3 */
+            border: 1px solid black;
+        }
+
+            #foto-esquerda-proxima img {
+            width: 150px;
+            height: 228px;
+            border: 1px solid black;
+        }
+
+            #foto-central img {
+            width:200px;
+            height: 360px;
+            border: 1px solid black;
+        }
+
+            #foto-direita-proxima img {
+            width: 150px;
+            height: 228px;
+            border: 1px solid black;
+        }
+
+            #foto-direita-mais-distante img {
+            width: 100px;
+            height: 156px;
+            border: 1px solid black;
+            }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="limiteDosBlocos">
+        <button id="btn-esquerdo"><ion-icon name="caret-back-outline"></ion-icon></button>
+
+        <div id="foto-esquerda-mais-distante">
+            <img src="img/foto-familia-1.jpg" alt="Foto família 1">
+        </div>
+        <div id="foto-esquerda-proxima">
+            <img src="img/foto-familia-2.jpg" alt="Foto família 2">
+        </div>
+        <div id="foto-central">
+            <img src="img/foto-familia-3.jpg" alt="Foto família 3">
+        </div>
+        <div id="foto-direita-proxima">
+            <img src="img/foto-familia-4.jpg" alt="Foto família 4">
+        </div>
+        <div id="foto-direita-mais-distante">
+            <img src="img/foto-familia-5.jpg" alt="Foto família 5">
+        </div>
+
+
+
+        <button id="btn-direito"><ion-icon name="caret-forward-outline"></ion-icon></button>
+
+    </div>
+    
+
+
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+preciso alterar para que as propriedades de tamanho sejam relacionados ao bloco e não as fotos para que quando eu mudar as fotos ela se alterem dentro do bloco especifico e não fiquem com tamanho diferente por si só.
+
+Parando por estar cansado.
